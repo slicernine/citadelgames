@@ -15,7 +15,7 @@
 
 
 @font-face {
-    font-family: 'eote_symbolregular';
+    font-family: 'EotESymbol';
     src: url('eotesymbol-webfont.woff2') format('woff2'),
          url('eotesymbol-webfont.woff') format('woff');
     font-weight: normal;
@@ -51,7 +51,7 @@
 
 
 @font-face {
-    font-family: 'aurebeshregular';
+    font-family: 'aurebesh';
     src: url('aurebesh-webfont.woff2') format('woff2'),
          url('aurebesh-webfont.woff') format('woff');
     font-weight: normal;
