@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Archives</title>
+<link href="style-archives.css" type="text/css" rel="stylesheet">
+	<link rel="icon" href="icon-citadel.ico">
+</head>
+
+<body>
+	<header>
+		<div class="topnav">
+			<font color="white">
+		  <a href="chronicles.html">Chronicles</a>
+		  <a href="odyssey.html">Odyssey</a>
+		  <a href="adegan.html">Adegan</a>
+		  <a href="cataclysm.html">Cataclysm</a>
+		  <a href="resources.html">Resources</a>
+		  <a href="archives.html">Archives</a>
+		  <a style="float:right" href="index.html">Home</a></font>
+</div>
+		<div id="main_header">
+		<div id="title-1" class="element">Resources</div>
+			<div id="title-2" class="element">Resources</div>
+		</div>
+	</header>
+<div id="main">
+	<div class="row">
+  <div class="column left">
+	<button class="accordion">Primis // The Eye of the Storm</button>
+<div class="panel">
+  <p>On the world of Primis lives inhabitants of an old world, where technology is just starting to shape life, but monarchies, knights, castles, and swords still rule everyday life.</p>
+</div>
+
+<button class="accordion">Sith Game // Gen 2 // The Fallen War</button>
+<div class="panel">
+  <p>Year 330. The children of the galaxy shapers have lived and grown in a world of unity, peace, and progress. </p>
+</div>
+
+<button class="accordion">Sith Game // Gen 1 // Rise of the Adegan Empire</button>
+<div class="panel">
+	<p>In year 309, an Empire and Republic were once again established in the Skyriver Galaxy. After a grueling war, a controversial tactic of a Jedi General named <i>Zema Sebatyne</i> landed the Republic with several key core planets occupied of the Empire's; in quick retaliation, <i>Darth Marr</i> attacked the Republic Core, occupying key systems akin to those taken on their side. In a state of confusion and panic, the two sides drafted a quick peace to spare the lives of their homeworld citizens, but neither side were willing to give up what they had taken. Stuck in foreign lands, three sith stalks the halls of the Jedi Temple on Coruscant, looking to make their mark.</p>
+	  <p>A Jedi Padawan, separated from the Republic and tormented by Dread Masters in front of his master, Zorrik Durron was turned to the dark side and inducted into the sith. Jorridan Kovas, a sith warrior eager to prove his strength, allies himself with the cunning and persuasive sith, ready to bash skulls when his words fail. And Karn Grausch, a sith pureblood seeking the dark secrets of the force, </p></div>
+		</div>
+<div class="column middle">
+	<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+	<p>Lorem ipsum...</p></div>
+	</div>
+	</div>
+	</div>
+		
+		
+		
+		
+	<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+
+</html>

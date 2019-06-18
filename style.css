@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("E:/Citadel.Games 2/background2.png");
+	background-color: #242a39;
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	text-align: center;
+}
+
+a:link    {
+  text-decoration:  none;
+  font-weight:      none;
+  background-color: none;
+  color:            inherit;
+  } 
+a:visited {
+  text-decoration:  none;
+  font-weight:      none;
+  background-color: none;
+  color:            inherit;
+  } 
+a:hover   {
+  text-decoration:  none;
+  font-weight:      none;
+  background-color: none;
+  color:            inherit;
+  } 
+a:active  {
+  text-decoration:  none;
+  font-weight:      none;
+  background-color: none;
+  color: inherit;
+  } 
+
+h1 {
+	text-align: center;
+	font-family: "Star Jedi";
+	font-size: 40pt;
+	letter-spacing: 3px;
+	color: #D1CE5F;
+}
+
+#main {
+	width: 900px;
+	height: 300px;
+	background: #242A39;
+	margin: 10px auto;
+	border: solid 0px #D1CE5F;
+	align-items: center;
+}
+
+.primary_header {
+	width: 100%;
+	background-color: #242A39;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.primary_menu {
+	width: 135%;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	background-color: #242A39;
+	clear: left;
+}
+.primary_menu ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 20pt;
+	letter-spacing: 2px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+}
+.primary_menu ul li:hover {
+	color: #D1CE5F;
+	font-size: 20pt;
+	font-family: Aurebesh;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}
+.primary_menu li a.active { 
+	background-color: #D1CE5F;
+	color: #D1CE5F
+}
+.primary_menu li a:hover:not(.active) {
+	background-color: #242A39;
+	color: white;
+}
