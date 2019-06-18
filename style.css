@@ -1,87 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face {
-    font-family: 'allessaregular';
-    src: url('allessa-webfont.woff2') format('woff2'),
-         url('allessa-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'EotE_Symbol';
-    src: url('eotesymbol-webfont.woff2') format('woff2'),
-         url('eotesymbol-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'source_sans_proitalic';
-    src: url('sourcesanspro-it-webfont.woff2') format('woff2'),
-         url('sourcesanspro-it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'star jedi';
-    src: url('starjedi-webfont.woff2') format('woff2'),
-         url('starjedi-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'aurebesh';
-    src: url('aurebesh-webfont.woff2') format('woff2'),
-         url('aurebesh-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'source_sans_proregular';
-    src: url('sourcesanspro-regular-webfont.woff2') format('woff2'),
-         url('sourcesanspro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'source_sans_probold';
-    src: url('sourcesanspro-bold-webfont.woff2') format('woff2'),
-         url('sourcesanspro-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body {
 	background-image: url("background2.png");
 	background-color: #242a39;
@@ -155,6 +74,7 @@ h1 {
 	background-color: #242A39;
 	clear: left;
 }
+	
 .primary_menu ul li {
 	list-style: none;
 	float: left;
