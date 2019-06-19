@@ -347,44 +347,126 @@ span.vilified {
     color: #270A0A;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
+.accordion.resources {
+    -webkit-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    -moz-box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    box-shadow: 0px 75px 35px -55px rgba(10, 30, 65, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #505050;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 15px;
+    margin: 0 auto;
+    height: 500px;
+    width: 1080px;
+}
+
+.accordion.resources > ul > li,
+.resources .accordion-title,
+.resources .accordion-content,
+.resources .accordion-separator {
+    float: left;
+} 
+
+.accordion.resources > ul > li {
+    background-color: #1f1f1f;
+    margin-right: -900px;
+    margin-bottom: -0px;
+}
+
+.resources .accordion-select:checked ~ .accordion-separator {
+    margin-right: 900px;
+    margin-bottom: 0px;
+} 
+
+.resources .accordion-title,
+.resources .accordion-select  {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    width: 45px;
+    height: 500px;
+    font-size: 25px;
+}
+
+.resources .accordion-title span {
+    margin-bottom: 23px; 
+    margin-left: 20px;
+} 
+
+.resources .accordion-select:hover ~ .accordion-title,
+.resources .accordion-select:checked ~ .accordion-title {
+    background-color: #3068cc;
+} 
+
+ .resources .accordion-title span  {	
+    transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-writing-mode: lr-bt;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    margin-left: 0px;
+    line-height: 45px;
+} 
+
+.resources .accordion-content {
+    background-color: #3e3e3e;
+    color: #f5f2f0;
+    height: 428px;
+    width: 828px;
+    padding: 36px;
+}
+
+.resources .accordion-title,
+.resources .accordion-select:checked ~ .accordion-content {
+    margin-right: 0px;
+    margin-bottom: 0px;
+} 
+
+/* Do not change following properties, they aren't 
+generated automatically and are common for each slider. */
 .accordion {
-  background-color: #0054a6;
-  color: #FFFFFF;
-	font-weight: bold;
-  font-family: "Source Sans Pro";
-		font-size: 16pt;
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-	cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border-color: #6dcff6;
-	border-width: 1px;
-  outline: none;
-  transition: 0.4s;
+    overflow: hidden;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #6dcff6;
-}
-.active, .accordion2:hover {
-  background-color: #6dcff6;
-	
-}.active, .accordion3:hover {
-  background-color: #6dcff6;
+.accordion > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 101%;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: #555555;
-  display: none;
-  overflow: hidden;
-font-family: "Source Sans Pro";
-	font-size: 12pt;
-	color: #FFFFFF;
-	text-align: justify;
+.accordion > ul > li,
+.accordion-title {
+    position: relative;
+}
+
+.accordion-select {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.accordion-title span {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.accordion-content {
+    position: relative;
+    overflow: auto;
+}
+
+.accordion-separator {
+    transition: margin 0.3s ease 0.1s;
+    -o-transition: margin 0.3s ease 0.1s;
+    -moz-transition: margin 0.3s ease 0.1s;
+    -webkit-transition: margin 0.3s ease 0.1s;
 }
