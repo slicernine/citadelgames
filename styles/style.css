@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-image: url("images/background2.png");
+	background-image: url("/images/background2.png");
 	background-color: #242a39;
  	background-repeat: no-repeat;
   	background-attachment: fixed;
