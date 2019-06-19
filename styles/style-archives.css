@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'allessaregular';
-    src: url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/allessa-webfont.woff2') format('woff2'),
-url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/allessa-webfont.woff') format('woff');
+    src: url('fonts/allessa-webfont.woff2') format('woff2'),
+url('allessa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@ url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/
 
 @font-face {
     font-family: 'eote_symbolregular';
-    src: url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/eotesymbol-webfont.woff2') format('woff2'),
-url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/eotesymbol-webfont.woff') format('woff');
+    src: url('fonts/eotesymbol-webfont.woff2') format('woff2'),
+url('fonts/eotesymbol-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@ url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/
 
 @font-face {
     font-family: 'source_sans_proitalic';
-    src: url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/sourcesanspro-it-webfont.woff2') format('woff2'),
-url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/sourcesanspro-it-webfont.woff') format('woff');
+    src: url('fonts/sourcesanspro-it-webfont.woff2') format('woff2'),
+url('fonts/sourcesanspro-it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@ url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/
 
 @font-face {
     font-family: 'star_jediregular';
-    src: url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/starjedi-webfont.woff2') format('woff2'),
-url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/starjedi-webfont.woff') format('woff');
+    src: url('fonts/starjedi-webfont.woff2') format('woff2'),
+url('fonts/starjedi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +52,8 @@ url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/
 
 @font-face {
     font-family: 'aurebeshregular';
-    src: url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/aurebesh-webfont.woff2') format('woff2'),
-url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/aurebesh-webfont.woff') format('woff');
+    src: url('fonts/aurebesh-webfont.woff2') format('woff2'),
+url('fonts/aurebesh-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -64,8 +64,8 @@ url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/aurebe
 
 @font-face {
     font-family: 'source_sans_proregular';
-    src: url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
-url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -76,8 +76,8 @@ url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/
 
 @font-face {
     font-family: 'source_sans_probold';
-    src: url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
-url('file:///C|/Users/Samwise.DEEPSPACENINE/Documents/GitHub/citadelgames/fonts/sourcesanspro-bold-webfont.woff') format('woff');
+    src: url('fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+url('fonts/sourcesanspro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
