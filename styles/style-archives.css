@@ -118,7 +118,7 @@ url('fonts/sourcesanspro-bold-webfont.woff') format('woff');
 }
 
 body {
-	background-image: url("background_archive.png");
+	background-image: url("/images/background_archive.png");
 		background-color: #242a39;
  	background-repeat: no-repeat;
   	background-attachment: fixed;
