@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'allessaregular';
-    src: url('fonts/allessa-webfont.woff2') format('woff2'),
+    src: url('allessa-webfont.woff2') format('woff2'),
 url('allessa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -16,8 +16,8 @@ url('allessa-webfont.woff') format('woff');
 
 @font-face {
     font-family: 'eote_symbolregular';
-    src: url('fonts/eotesymbol-webfont.woff2') format('woff2'),
-url('fonts/eotesymbol-webfont.woff') format('woff');
+    src: url('eotesymbol-webfont.woff2') format('woff2'),
+url('eotesymbol-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@ url('fonts/eotesymbol-webfont.woff') format('woff');
 
 @font-face {
     font-family: 'source_sans_proitalic';
-    src: url('fonts/sourcesanspro-it-webfont.woff2') format('woff2'),
-url('fonts/sourcesanspro-it-webfont.woff') format('woff');
+    src: url('sourcesanspro-it-webfont.woff2') format('woff2'),
+url('sourcesanspro-it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@ url('fonts/sourcesanspro-it-webfont.woff') format('woff');
 
 @font-face {
     font-family: 'star_jediregular';
-    src: url('fonts/starjedi-webfont.woff2') format('woff2'),
-url('fonts/starjedi-webfont.woff') format('woff');
+    src: url('starjedi-webfont.woff2') format('woff2'),
+url('starjedi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +52,8 @@ url('fonts/starjedi-webfont.woff') format('woff');
 
 @font-face {
     font-family: 'aurebeshregular';
-    src: url('fonts/aurebesh-webfont.woff2') format('woff2'),
-url('fonts/aurebesh-webfont.woff') format('woff');
+    src: url('aurebesh-webfont.woff2') format('woff2'),
+url('aurebesh-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -64,8 +64,8 @@ url('fonts/aurebesh-webfont.woff') format('woff');
 
 @font-face {
     font-family: 'source_sans_proregular';
-    src: url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
-url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    src: url('sourcesanspro-regular-webfont.woff2') format('woff2'),
+url('sourcesanspro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -76,8 +76,8 @@ url('fonts/sourcesanspro-regular-webfont.woff') format('woff');
 
 @font-face {
     font-family: 'source_sans_probold';
-    src: url('fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
-url('fonts/sourcesanspro-bold-webfont.woff') format('woff');
+    src: url('sourcesanspro-bold-webfont.woff2') format('woff2'),
+url('sourcesanspro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
