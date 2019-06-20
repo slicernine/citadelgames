@@ -45,7 +45,7 @@ h1 {
 #main {
 	width: 900px;
 	height: 300px;
-	background: #242A39;
+	background: none;
 	margin: 10px auto;
 	border: solid 0px #D1CE5F;
 	align-items: center;
