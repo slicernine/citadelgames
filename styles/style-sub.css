@@ -52,8 +52,8 @@ url('fonts/starjedi-webfont.woff') format('woff');
 
 @font-face {
     font-family: 'aurebeshregular';
-    src: url('fonts/aurebesh-webfont.woff2') format('woff2'),
-url('fonts/aurebesh-webfont.woff') format('woff');
+    src: url('aurebesh-webfont.woff2') format('woff2'),
+url('aurebesh-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
