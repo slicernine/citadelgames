@@ -38,7 +38,7 @@ url('sourcesanspro-it-webfont.woff') format('woff');
 
 
 @font-face {
-    font-family: 'star_jedi';
+    font-family: 'StarJedi';
     src: url('starjedi-webfont.woff2') format('woff2'),
 url('starjedi-webfont.woff') format('woff');
 	    src: url('starjedi.ttf') format('ttf');
@@ -118,7 +118,7 @@ a:active  {
 
 h1 {
 	text-align: center;
-	font-family: "Star Jedi";
+	font-family: "StarJedi";
 	font-size: 40pt;
 	letter-spacing: 3px;
 	color: #D1CE5F;
