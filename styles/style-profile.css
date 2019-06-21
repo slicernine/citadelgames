@@ -124,6 +124,7 @@ body {
  	background-repeat: no-repeat;
   	background-attachment: fixed;
 	text-align: left;
+	font-family: "Source Sans Pro";
 }
 
 a:link    {
@@ -152,8 +153,8 @@ a:active  {
   } 
 
 .element		{ font-size:40pt; position: absolute; left:220px; }
-#title-1		{ font-family: Star Jedi; letter-spacing: 3px; color: #D1CE5F; z-index:2; }
-#title-2		{ font-family: Aurebesh; font-weight: bold; color: #5074a8; letter-spacing: 4px; font-size: 35pt; margin: 40px 10px 0 35px; z-index:1; }
+#title-1		{ font-family: "Star Jedi"; letter-spacing: 3px; color: #D1CE5F; z-index:2; }
+#title-2		{ font-family: "Aurebesh"; font-weight: bold; color: #5074a8; letter-spacing: 4px; font-size: 35pt; margin: 40px 10px 0 35px; z-index:1; }
 #title-3 {
   position: absolute;
   left: 100px;
@@ -464,12 +465,6 @@ span.vilified {
 .active, .accordion:hover {
   background-color: #6dcff6;
 }
-.active, .accordion2:hover {
-  background-color: #6dcff6;
-	
-}.active, .accordion3:hover {
-  background-color: #6dcff6;
-}
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
@@ -491,7 +486,7 @@ font-family: "Source Sans Pro";
 	font-weight: bold;
   font-family: "Source Sans Pro";
 		font-size: 14pt;
-	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: black;
 	cursor: pointer;
   padding: 12px;
