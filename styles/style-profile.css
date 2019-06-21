@@ -904,12 +904,6 @@ span.vilified {
 .active, .accordion:hover {
   background-color: #6dcff6;
 }
-.active, .accordion2:hover {
-  background-color: #6dcff6;
-	
-}.active, .accordion3:hover {
-  background-color: #6dcff6;
-}
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
@@ -962,4 +956,3 @@ font-family: "Source Sans Pro";
 	text-align: justify;
 	 border-radius: 0px 0px 15px 15px;
 }
->>>>>>> 164fac71b03b4e269d79054142325d928937b064:style-profile.css
