@@ -38,7 +38,7 @@ url('sourcesanspro-it-webfont.woff') format('woff');
 
 
 @font-face {
-    font-family: 'StarJedi';
+    font-family: 'starjediregular';
     src: url('starjedi-webfont.woff2') format('woff2'),
 url('starjedi-webfont.woff') format('woff');
 	    src: url('starjedi.ttf') format('ttf');
