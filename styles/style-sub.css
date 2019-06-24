@@ -38,9 +38,8 @@ url('sourcesanspro-it-webfont.woff') format('woff');
 
 
 @font-face {
-    font-family: 'star_jediregular';
+    font-family: 'starjediregular';
     src: url('starjedi-webfont.woff2') format('woff2'),
-	    url('starjedi.ttf') format('truetype'),
 url('starjedi-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -151,7 +150,7 @@ a:active  {
   } 
 
 .element		{ font-size:40pt; position: absolute; left:220px; }
-#title-1		{ font-family: "Star Jedi"; letter-spacing: 3px; color: #D1CE5F; z-index:2; }
+#title-1		{ font-family: StarJedi; letter-spacing: 3px; color: #D1CE5F; z-index:2; }
 #title-2		{ font-family: Aurebesh; font-weight: bold; color: #5074a8; letter-spacing: 4px; font-size: 35pt; margin: 40px 10px 0 35px; z-index:1; }
 #title-3 {
   position: absolute;
@@ -367,7 +366,7 @@ a:active  {
   } 
 
 .element		{ font-size:40pt; position: absolute; left:220px; }
-#title-1		{ font-family: Star Jedi; letter-spacing: 3px; color: #D1CE5F; z-index:2; }
+#title-1		{ font-family: StarJedi; letter-spacing: 3px; color: #D1CE5F; z-index:2; }
 #title-2		{ font-family: Aurebesh; font-weight: bold; color: #5074a8; letter-spacing: 4px; font-size: 35pt; margin: 40px 10px 0 35px; z-index:1; }
 #title-3 {
   position: absolute;
